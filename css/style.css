@@ -1,0 +1,54 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    background-image: url("../images/background.jpeg");
+    background-size: cover;
+}
+h1 {
+    font-size: 50px;
+    font-weight: 300px;
+    color: white;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-shadow: 2px 2px 50px white;
+}
+h2 {
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+p {
+    font-size: 16px;
+    color: white;
+}
+.foto {
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid orange;
+}
+.lista {
+    list-style: none;
+    padding: 0px;
+}
+.lista li {
+    display: inline;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: orange;
+}
+.site {
+    border-radius: 5px;
+    border: 1px solid white;
+    width: 200px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.site:hover {
+    background-color: white;
+    color: orange;
+    font-weight: bold;
+}
